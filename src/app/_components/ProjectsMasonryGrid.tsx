@@ -32,7 +32,7 @@ const projects = [
     redirectTo: 'https://realitykingdom.xyz',
   },
 ]
-export function Hue() {
+export function ProjectsMasonryGrid() {
   return (
     <Masonry
       className="my-masonry-grid"
