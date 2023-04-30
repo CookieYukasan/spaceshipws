@@ -2,6 +2,7 @@ import { SocialMedia } from '@/components/SocialMedia'
 import Image from 'next/image'
 import { GoBackButton } from './_components/GoBackButton'
 import { OurMission } from './_components/OurMission'
+import { OurProjects } from './_components/OurProjects'
 import { OurTeam } from './_components/OurTeam'
 import { WhatIsSpaceship } from './_components/WhatIsSpaceship'
 
@@ -21,6 +22,7 @@ export default function Home() {
         <WhatIsSpaceship />
         <OurMission />
         <OurTeam />
+        <OurProjects />
       </main>
       <footer className="mt-24 bg-[#15191F] p-8 lg:mt-[100px]">
         <div className="container mx-auto flex flex-col items-center justify-center lg:flex-row">
