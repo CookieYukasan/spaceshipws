@@ -70,7 +70,10 @@ export default function Home() {
           <OurTeamSwiper />
         </section>
         <section className="mt-20 lg:mt-24">
-          <SectionTitle className="lg:hidden" title="Conheça nossos projetos" />
+          <SectionTitle
+            className="mb-6 lg:hidden"
+            title="Conheça nossos projetos"
+          />
           <ProjectsMasonryGrid />
         </section>
       </main>
