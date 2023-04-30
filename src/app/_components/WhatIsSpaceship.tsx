@@ -11,7 +11,7 @@ export function WhatIsSpaceship() {
         src="/web/images/hero-illustration.svg"
         width={182}
         height={194}
-        className="w-[200px] lg:w-[500px]"
+        className="mx-auto w-[200px] lg:mx-0 lg:w-[500px]"
         alt="Hero Illustration"
       />
       <div className="mt-8 lg:w-1/2">
