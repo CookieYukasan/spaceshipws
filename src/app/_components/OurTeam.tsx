@@ -1,3 +1,4 @@
+import { OurTeamSwiper } from './OurTeamSwiper'
 import { SectionTitle } from './SectionTitle'
 
 export function OurTeam() {
@@ -10,6 +11,7 @@ export function OurTeam() {
         Conheça nossa equipe e veja por que somos uma agência de desenvolvimento
         de websites de destaque no mercado.
       </p>
+      <OurTeamSwiper />
     </section>
   )
 }
