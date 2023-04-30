@@ -18,26 +18,18 @@ export const metadata: Metadata = {
       'Entregando soluções de tecnologia que agregam valor a vida das pessoas.',
     creator: '@jns_stunner',
     card: 'summary_large_image',
-    images: `${
-      process.env.isDev ? 'http://localhost:3000' : 'https://spaceshipws.com'
-    }/banner.jpg`,
+    images: `${process.env.publicUrl}/banner.jpg`,
   },
   creator: '@jns_stunner',
   openGraph: {
     type: 'website',
     title: 'Spaceship Web Solutions',
-    url: process.env.isDev
-      ? 'http://localhost:3000'
-      : 'https://spaceshipws.com',
+    url: process.env.publicUrl,
     description:
       'Entregando soluções de tecnologia que agregam valor a vida das pessoas.',
     images: [
       {
-        url: `${
-          process.env.isDev
-            ? 'http://localhost:3000'
-            : 'https://spaceshipws.vercel.app'
-        }/banner.jpg`,
+        url: `${process.env.publicUrl}/banner.jpg`,
       },
     ],
     siteName: 'Spaceship Web Solutions',
