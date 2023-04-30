@@ -74,56 +74,55 @@ export function OurTeamSwiper() {
       onSlideChange={onSlideChange}
     >
       {team.map((member, index) => (
-        <SwiperSlide
-          className="lg:relative lg:grid lg:grid-cols-3 lg:gap-6"
-          key={member.name}
-        >
-          <div className="col-span-1">
-            <img
-              src={member.image}
-              alt={`${member.name} Photo`}
-              className="w-full rounded object-cover"
-            />
-            <div className="mt-6 h-[8px] rounded-md bg-[#15191F]">
-              <div
-                className="h-full rounded-md bg-sp-green"
-                style={{
-                  width: `${progressWidthValue}%`,
-                }}
-              ></div>
+        <SwiperSlide key={member.name}>
+          <div className="lg:relative lg:grid lg:grid-cols-3 lg:gap-6">
+            <div className="col-span-1">
+              <img
+                src={member.image}
+                alt={`${member.name} Photo`}
+                className="w-full rounded object-cover"
+              />
+              <div className="mt-6 h-[8px] rounded-md bg-[#15191F]">
+                <div
+                  className="h-full rounded-md bg-sp-green"
+                  style={{
+                    width: `${progressWidthValue}%`,
+                  }}
+                ></div>
+              </div>
             </div>
-          </div>
-          <div className="col-span-2">
-            <input
-              type="checkbox"
-              id={`expand-${index}`}
-              className="peer hidden"
-            />
-            <p className="text-[100px] font-medium text-white">&#10077;</p>
-            <p className="-mt-10 line-clamp-5 leading-9 text-white peer-checked:!line-clamp-none lg:line-clamp-none">
-              {member.description}
-            </p>
-            <div className="lg:hidden">
-              <label
-                htmlFor={`expand-${index}`}
-                role="button"
-                className="hidden text-sp-green peer-checked:!inline-block"
-              >
-                Ver menos
-              </label>
+            <div className="col-span-2">
+              <input
+                type="checkbox"
+                id={`expand-${index}`}
+                className="peer hidden"
+              />
+              <p className="text-[100px] font-medium text-white">&#10077;</p>
+              <p className="-mt-10 line-clamp-5 leading-9 text-white peer-checked:!line-clamp-none lg:line-clamp-none">
+                {member.description}
+              </p>
+              <div className="lg:hidden">
+                <label
+                  htmlFor={`expand-${index}`}
+                  role="button"
+                  className="hidden text-sp-green peer-checked:!inline-block"
+                >
+                  Ver menos
+                </label>
 
-              <label
-                htmlFor={`expand-${index}`}
-                role="button"
-                className="text-sp-green peer-checked:hidden"
-              >
-                Ver mais
-              </label>
+                <label
+                  htmlFor={`expand-${index}`}
+                  role="button"
+                  className="text-sp-green peer-checked:hidden"
+                >
+                  Ver mais
+                </label>
+              </div>
+              <h3 className="mt-6 text-2xl font-semibold text-white">
+                {member.name}
+              </h3>
+              <p className="mt-2 text-xl text-sp-gray-300">{member.role}</p>
             </div>
-            <h3 className="mt-6 text-2xl font-semibold text-white">
-              {member.name}
-            </h3>
-            <p className="mt-2 text-xl text-sp-gray-300">{member.role}</p>
           </div>
         </SwiperSlide>
       ))}
