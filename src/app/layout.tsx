@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       'Entregando soluções de tecnologia que agregam valor a vida das pessoas.',
     creator: '@jns_stunner',
     card: 'summary_large_image',
-    images: `${process.env.publicUrl}/banner.jpg`,
+    images: `${process.env.publicUrl}/web/images/banner.jpg`,
   },
   creator: '@jns_stunner',
   openGraph: {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
       'Entregando soluções de tecnologia que agregam valor a vida das pessoas.',
     images: [
       {
-        url: `${process.env.publicUrl}/banner.jpg`,
+        url: `${process.env.publicUrl}/web/images/banner.jpg`,
       },
     ],
     siteName: 'Spaceship Web Solutions',
