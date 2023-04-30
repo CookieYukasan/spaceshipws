@@ -35,6 +35,10 @@ const projects = [
 export function ProjectsMasonryGrid() {
   return (
     <Masonry
+      breakpointCols={{
+        default: 2,
+        1280: 1,
+      }}
       className="my-masonry-grid"
       columnClassName="my-masonry-grid_column space-y-6"
     >
