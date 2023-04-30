@@ -7,7 +7,7 @@ const nextConfig = {
     publicUrl:
       process.env.NODE_ENV !== 'production'
         ? 'http://localhost:3000'
-        : 'https://spaceship.vercel.app',
+        : 'https://spaceshipws.vercel.app',
   },
 }
 
