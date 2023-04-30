@@ -11,11 +11,11 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'Spaceship Web Solutions',
   description:
-    "Delivering technology solutions that add value to people's lives.",
+    'Entregando soluções de tecnologia que agregam valor a vida das pessoas.',
   twitter: {
     title: 'Spaceship Web Solutions',
     description:
-      "Delivering technology solutions that add value to people's lives.",
+      'Entregando soluções de tecnologia que agregam valor a vida das pessoas.',
     creator: '@jns_stunner',
     card: 'summary_large_image',
     images: `${
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       ? 'http://localhost:3000'
       : 'https://spaceshipws.com',
     description:
-      "Delivering technology solutions that add value to people's lives.",
+      'Entregando soluções de tecnologia que agregam valor a vida das pessoas.',
     images: [
       {
         url: `${
