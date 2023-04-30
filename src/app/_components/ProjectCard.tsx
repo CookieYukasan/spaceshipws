@@ -14,11 +14,11 @@ export function ProjectCard({
   redirectTo,
 }: ProjectCardProps) {
   return (
-    <div className="rounded bg-[#15191F]">
+    <div className="rounded bg-[#15191F] transition-transform duration-500 hover:-translate-y-2 hover:translate-x-2">
       <img
         src={image}
         alt={`${name} Banner`}
-        className="aspect-video max-h-[300px] w-full rounded-t object-cover"
+        className="h-full w-full rounded-t object-cover"
       />
       <div className="px-4 py-6 lg:p-8">
         <h1 className="text-xl font-bold text-white">{name}</h1>
