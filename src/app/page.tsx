@@ -1,9 +1,9 @@
 export default function Home() {
   return (
     <>
-      <h1 className="text-center text-3xl text-red-600 font-bold">
-        Hello Spaceship
-      </h1>
+      <header className="flex items-center justify-center">
+        <h1>teste</h1>
+      </header>
     </>
-  );
+  )
 }
