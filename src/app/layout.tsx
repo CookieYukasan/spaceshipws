@@ -36,7 +36,7 @@ export const metadata: Metadata = {
         url: `${
           process.env.isDev
             ? 'http://localhost:3000'
-            : 'https://spaceshipws.com'
+            : 'https://spaceshipws.vercel.app'
         }/banner.jpg`,
       },
     ],
