@@ -1,6 +1,4 @@
-export function Logo() {
-  return (
-    <svg
+<svg
       width="281"
       height="57"
       viewBox="0 0 281 57"
@@ -108,5 +106,3 @@ export function Logo() {
         fill="white"
       />
     </svg>
-  )
-}
